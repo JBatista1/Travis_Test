@@ -16,6 +16,6 @@ class CalculatorTest: XCTestCase {
         let b = 30
         let c = Calculator()
         let result = c.sum(a: a, b: b)
-        XCTAssertEqual(result, 52)
+        XCTAssertEqual(result, 50)
     }
 }
